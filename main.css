@@ -1,0 +1,98 @@
+/* Fonts */
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("images/home_bg.jpg");
+}
+
+.title {
+    background-color: #2f2a2a;
+    height: 75px;
+    margin-top: 16px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 25px;
+}
+
+.game-title {
+    font-size: 50px;
+    text-align: center;
+    color: #f52f2f;
+}
+
+.game-options{
+    margin-top: 95px;
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 200px;
+    /* background-color: #2f2a2a; */
+}
+
+.menu{
+    margin-left: 80px;
+}
+
+.menu-items-container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.menu-font{
+    color: white;
+    font-size: 45px;
+    margin-left: 16px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.menu-icon{
+    margin-top: 11px;
+}
+
+.start-hover:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.options-hover:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.about-hover:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-text{
+    color: white;
+    padding-left: 40px;
+    padding-top: 5px;
+}
